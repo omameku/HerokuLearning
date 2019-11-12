@@ -1,28 +1,32 @@
 {
-    "name": "HerokuLearning",
-    "version": "1.0.0",
-    "description": "1. create heroku account\r 2. install Node.js\r 3. install TypeScript",
-    "main": "hello.js",
-    "scripts": {
-        "build": "webpack --mode=development",
-        "start": "webpack-dev-server --mode=development"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/omameku/HerokuLearning.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/omameku/HerokuLearning/issues"
-    },
-    "homepage": "https://github.com/omameku/HerokuLearning#readme",
-    "devDependencies": {
-        "ts-loader": "^6.2.0",
-        "typescript": "^3.6.4",
-        "webpack": "^4.41.2",
-        "webpack-cli": "^3.3.9",
-        "webpack-dev-server": "^3.8.2"
-    }
+  "name": "HerokuLearning",
+  "version": "1.0.0",
+  "description": "1. create heroku account\r 2. install Node.js\r 3. install TypeScript",
+  "main": "hello.js",
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "build": "webpack --mode=development",
+    "start": "webpack-dev-server --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omameku/HerokuLearning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omameku/HerokuLearning/issues"
+  },
+  "homepage": "https://github.com/omameku/HerokuLearning#readme",
+  "devDependencies": {
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
 }
